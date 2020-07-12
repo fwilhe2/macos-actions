@@ -8,9 +8,18 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run a multi-line script
+    - name: sw vers
       run: |
         sw_vers
+    - name: system_profiler
+      run: |
         system_profiler SPSoftwareDataType
+    - name: pkgutil --pkgs
+      run: |
         pkgutil --pkgs
+    - name: pkgutil --help
+      run: |
         pkgutil --help
+    - name: bash --version
+      run: |
+        bash --version
