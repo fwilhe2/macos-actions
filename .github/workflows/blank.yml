@@ -23,3 +23,5 @@ jobs:
     - name: bash --version
       run: |
         bash --version
+        brew install bash
+        bash --version
