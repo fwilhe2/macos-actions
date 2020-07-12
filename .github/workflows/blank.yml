@@ -24,4 +24,5 @@ jobs:
       run: |
         bash --version
         brew install bash
+        /usr/local/Cellar/bash/5.0.17
         bash --version
