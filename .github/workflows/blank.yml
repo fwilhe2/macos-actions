@@ -12,3 +12,5 @@ jobs:
       run: |
         sw_vers
         system_profiler SPSoftwareDataType
+        pkgutil --pkgs
+        pkgutil --help
